@@ -3,6 +3,15 @@
   --white: #FFFFFF;
   --black: #000000;
   --gray: #E2E2E2;
+  --dark-purple: #7F1DDB;
+  --medium-purple: #411DDB;
+  --main-font-color: #041833;
+  --font-color-post: #444444;
+  --white: #FFF;
+  --main-source: 'Raleway', sans-serif;
+  --secondary-source: 'Playfair Display', sans-serif;
+
+  font-family: var(--main-source);
 }
 
 body {

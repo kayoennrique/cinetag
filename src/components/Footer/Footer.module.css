@@ -1,11 +1,37 @@
 .footer {
     display: flex;
     justify-content: center;
-    background-color: var(--black);
+    background-color: var(--dark-purple);
+    padding: 1em;  
 }
 
 .footer h2 {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1em;  
     color: var(--white);
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 1.3em;  
+        text-align: center;
+        gap: 45px;
+    }
+
+    .footer h2 {
+        font-size: 5px; 
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer {
+        padding: 1.99em;
+    }
+    .footer h2 {
+        font-size: 20px; 
+        font-weight: 400;
+    }
 }

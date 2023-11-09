@@ -1,3 +1,15 @@
 iframe {
     height: 80vh;
 }
+
+@media screen and (max-width: 767px) {
+    iframe {
+        height: 30vh;  
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    iframe {
+        height: 43.5vh;
+    }
+}

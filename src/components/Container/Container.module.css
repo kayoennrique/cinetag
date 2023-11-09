@@ -1,4 +1,24 @@
 .container section {
-    margin: 1rem 6rem;
-    text-align: center;
+  margin: 1rem 5%;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .container section {
+      margin: 1rem 2%; 
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
   }
+}
+
+@media screen and (max-width: 1023px) {
+  .container section {
+    display: flex;
+    flex-wrap: wrap;
+      margin: 1rem 3%;  
+      text-align: center;
+      align-items: center;
+  }
+}

@@ -1,0 +1,87 @@
+.contentContainer {
+    position: relative;
+    text-align: center;
+    background-color: var(--medium-purple);
+    color: var(--white);
+    padding: 0 1.5rem 6.5rem;
+}
+ 
+.text404 {
+    display: block;
+    color: var(--medium-purple);
+    font-family: var(--secondary-source);
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+ 
+.title {
+    font-family: var(--secondary-source);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+ 
+.paragraph {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+ 
+.dogPicture {
+    position: absolute;
+    height: 21vw;
+    bottom: calc(-24vw * 0.5);
+}
+ 
+.blankSpace {
+    height: 40vh;
+}
+ 
+@media (max-width: 1100px) {    
+    .text404 {
+        margin-bottom: 2.25rem;
+    }
+   
+    .dogPicture {
+        height: 50vw;
+        bottom: calc(-50vw * 0.65);
+        left: 40vw;
+    }
+   
+    .blankSpace {
+        height: 53vw;
+    }
+}
+ 
+@media (max-width: 744px) {
+    .contentContainer {
+        padding: 3rem 1rem 17rem;
+    }
+   
+    .text404 {
+        font-size: 4rem;
+    }
+   
+    .title {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+   
+    .paragraph {
+        font-size: 1.125rem;
+        line-height: 1.3125rem;
+    }
+
+    .dogPicture {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        height: 94vw;
+        bottom: calc(-94vw * 0.3);
+        max-height: 375px;
+    }
+   
+    .blankSpace {
+        height: calc(94vw * 0.5);
+    }
+}
