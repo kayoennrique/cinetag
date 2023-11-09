@@ -1,5 +1,6 @@
-[
-    {
+{
+    "videos": [
+      {
         "id": 1,
         "title": "O labirinto do Logcat",
         "cover": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png",
@@ -24,3 +25,4 @@
         "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
     }
 ]
+}
